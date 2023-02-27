@@ -14,3 +14,5 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 
 # Connect to firefox
 - `adb forward tcp:6000 localfilesystem:/data/local/debugger-socket`
+
+# Upload with GDEPLOY (https://gitlab.com/suborg/gdeploy)
