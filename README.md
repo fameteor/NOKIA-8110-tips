@@ -21,3 +21,4 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 - Manifest items full guide : https://kaios.dev/2023/03/complete-manifest.webapp-guide/
 - Gerda installation : https://mis.pm/banana-hack#gerdaos
 - webapps are located in : `/data/local/webapps`
+- sdcard is mounted on : `/storage/sdcard`
