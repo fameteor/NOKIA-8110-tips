@@ -22,6 +22,7 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 - webapps are located in : `/data/local/webapps`
 - sdcard is mounted on : `/storage/sdcard`
 ## Documentation :
+- KAIOS 2.5 permissions detail : https://developer.kaiostech.com/docs/getting-started/main-concepts/permissions/
 - Manifest items full guide : https://kaios.dev/2023/03/complete-manifest.webapp-guide/
 - Manifest permissions guide : https://kaios.dev/2023/03/complete-kaios-permission-guide/
 - B2G security constraints : https://wiki.mozilla.org/Apps/Security
