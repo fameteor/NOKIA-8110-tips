@@ -15,6 +15,11 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 # Connect to firefox
 - `adb forward tcp:6000 localfilesystem:/data/local/debugger-socket`
 
+# Access to Linux shell as `root` : 
+- lauch the ROOT application
+- connect USB to PC
+- in a terminal window : `adb shell`
+
 # Upload with GDEPLOY (https://gitlab.com/suborg/gdeploy)
 
 # Development :
