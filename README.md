@@ -24,7 +24,7 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 
 - use `tcpdump -D` to get the interface list
 - capture until `CTRL C` on `any` interface : `tcpdump -i any`
-- capture to a file : `tcpdump -i <interface> -s 65535 -w /storage/sdcard/dumps/myFile.pcap`
+- capture to a file : `tcpdump -i any -s 65535 -w /storage/sdcard/dumps/myFile.pcap`
 - analyse with `Wireshark`
 
 # Upload with GDEPLOY (https://gitlab.com/suborg/gdeploy)
