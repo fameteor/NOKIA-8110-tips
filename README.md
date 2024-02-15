@@ -35,6 +35,9 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 - sdcard is mounted on : `/storage/sdcard`
 ## Documentation :
 - KAIOS 2.5 permissions detail : https://developer.kaiostech.com/docs/getting-started/main-concepts/permissions/
+
+# Developper Tips : 
+- Check if Internet available : boolean value : `navigator.onLine` . Events are associated : `window.addEventListener('online',  callbackFunction);` and `window.addEventListener('offline', callbackFunction);`
 - KAIOS 2.5 API : https://developer.kaiostech.com/docs/api/web-apis
 - Manifest items full guide : https://kaios.dev/2023/03/complete-manifest.webapp-guide/
 - Manifest permissions guide : https://kaios.dev/2023/03/complete-kaios-permission-guide/
