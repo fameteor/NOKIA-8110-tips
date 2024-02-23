@@ -40,6 +40,7 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 - Manifest permissions guide : https://kaios.dev/2023/03/complete-kaios-permission-guide/
 - B2G security constraints : https://wiki.mozilla.org/Apps/Security
 - Can I use for KAIOS browser : https://caniuse.com
+- TIPS development KAIos : https://kaios.dev/
 
 # Developper Tips : 
 - Check if Internet available : boolean value : `navigator.onLine` . Events are associated : `window.addEventListener('online',  callbackFunction);` and `window.addEventListener('offline', callbackFunction);`
