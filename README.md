@@ -44,3 +44,25 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 
 # Developper Tips : 
 - Check if Internet available : boolean value : `navigator.onLine` . Events are associated : `window.addEventListener('online',  callbackFunction);` and `window.addEventListener('offline', callbackFunction);`
+
+## Screen layout
+
+There can be 4 orientations :
+- `portrait-primary` 	(normal position)
+- `portrait-secondary` 	(phone upside down)
+- `landscape-primary` 	(keyboard on the right)
+- `landscape-secondary` (Keyboard on the left)
+
+To change the orientation, you can :
+- use the Manifest : `"orientation": "landscape"`. See Manifest documentation for more informations.
+- or with Javascript : `screen.orientation.lock('landscape-primary');`
+
+To get the value of the orientation : `screen.orientation.type`
+
+A KaiOs app has the following layout (from top to bottom) :
+- KaiOs status (notifications, battery, time ...) : height is 25 px.
+- the appTitle : height 20 px.
+- the application zone : the remaining height.
+- the softkeys zone : height : 30 px.
+
+To hide the status bar, you can use the Manifest : `"fullscreen": "true"`
