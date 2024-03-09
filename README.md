@@ -30,6 +30,8 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 # Network filtering : iptables
 - `iptables-save` doesn't work
 - `ip6tables -L -v   ` also works
+- to list iptables en OUTPUT with volume : `iptables -L OUTPUT -v`
+- to reset the counters : `iptables -Z`
 
 ```
 iptables -L -v
