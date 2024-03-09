@@ -32,6 +32,7 @@ See : https://github.com/openGiraffes/b2g-certificates : launch the batch after 
 - `ip6tables -L -v   ` also works
 - to list iptables en OUTPUT with volume : `iptables -L OUTPUT -v`
 - to reset the counters : `iptables -Z`
+- semble avoir marché pour bloquer la météo : `iptables -I OUTPUT -s 146.59.217.38 -j DROP`
 
 ```
 iptables -L -v
